@@ -15,7 +15,7 @@ A propos de ce projet
 3. la base de donnees du projet se trouve dans le dossier **BD**
 4. l'aplication est configurer avec mon mail tout mail envoyer arrivera chez moi
 5. si tu souhaite recevoir le mail dans ton compte tu devras :
-6. moidifier les données du fichier **.env** :
+- moidifier les données du fichier **.env** 
 -MAIL_MAILER=smtp
 -MAIL_HOST=smtp.gmail.com
 -MAIL_PORT=587
