@@ -7,24 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-propos de ce projet
-===================
+A propos de ce projet
+=====================
 
-- ce repositori contien le crud-laravel que tu peut avoir access a parti de la route **localhost:8000/etudiant** .
-- ce repositori contient egalement le projet contact a parti d'un mail en laravel tu peut avoir access a parti de la route **localhost:8000/contact**
-- la base de donnees du projet se trouve dans le dossier **BD**
-- l'aplication est configurer avec mon mail tout mail envoyer arrivera chez moi
-- si tu souhaite recevoir le mail dans ton compte tu devras :
-- moidifier les données du fichier **.env** :
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=yourmail@gmail.com
-MAIL_PASSWORD=**code appplication generé part ton compte google
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS="yourmail@gmail.com"
-MAIL_FROM_NAME="${APP_NAME}"
-- en suite dans le fichier **contactcontroller.php** dans la foction **Mail ::to()->send();** remplace le Mail part  le tiens
+1. ce repositori contien le crud-laravel que tu peut avoir access a parti de la route **localhost:8000/etudiant** .
+2. ce repositori contient egalement le projet contact a parti d'un mail en laravel tu peut avoir access a parti de la route **localhost:8000/contact**
+3. la base de donnees du projet se trouve dans le dossier **BD**
+4. l'aplication est configurer avec mon mail tout mail envoyer arrivera chez moi
+5. si tu souhaite recevoir le mail dans ton compte tu devras :
+6. moidifier les données du fichier **.env** :
+-MAIL_MAILER=smtp
+-MAIL_HOST=smtp.gmail.com
+-MAIL_PORT=587
+-MAIL_USERNAME=yourmail@gmail.com
+-MAIL_PASSWORD=**code appplication generé part ton compte google
+-MAIL_ENCRYPTION=tls
+-MAIL_FROM_ADDRESS="yourmail@gmail.com"
+-MAIL_FROM_NAME="${APP_NAME}"
+7. en suite dans le fichier **contactcontroller.php** dans la foction **Mail ::to()->send();** remplace le Mail part  le tiens
 
 ## Learning Laravel
 
