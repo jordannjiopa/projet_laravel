@@ -15,15 +15,15 @@ A propos de ce projet
 3. la base de donnees du projet se trouve dans le dossier **BD**
 4. l'aplication est configurer avec mon mail tout mail envoyer arrivera chez moi
 5. si tu souhaite recevoir le mail dans ton compte tu devras :
-- moidifier les données du fichier **.env** 
--MAIL_MAILER=smtp
--MAIL_HOST=smtp.gmail.com
--MAIL_PORT=587
--MAIL_USERNAME=yourmail@gmail.com
--MAIL_PASSWORD=**code appplication generé part ton compte google
--MAIL_ENCRYPTION=tls
--MAIL_FROM_ADDRESS="yourmail@gmail.com"
--MAIL_FROM_NAME="${APP_NAME}"
+- moidifier les données du fichier **.env**
+- MAIL_MAILER=smtp
+- MAIL_HOST=smtp.gmail.com
+- MAIL_PORT=587
+- MAIL_USERNAME=yourmail@gmail.com
+- MAIL_PASSWORD=**code appplication generé part ton compte google
+- MAIL_ENCRYPTION=tls
+- MAIL_FROM_ADDRESS="yourmail@gmail.com"
+- MAIL_FROM_NAME="${APP_NAME}"
 7. en suite dans le fichier **contactcontroller.php** dans la foction **Mail ::to()->send();** remplace le Mail part  le tiens
 
 ## Learning Laravel
